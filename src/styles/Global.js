@@ -1,0 +1,29 @@
+import { createGlobalStyle } from 'styled-components';
+
+export default createGlobalStyle`
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Roboto, sans-serif;
+  }
+
+  *, button, input {  
+    border: 0;
+    outline: 0;
+  }
+
+  :root {
+    --green-300: #035755;
+    --orange-200: #FB4C47;
+    --white: #ffffff;
+    --black: #000000;
+  }
+
+`;
