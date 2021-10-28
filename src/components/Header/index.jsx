@@ -1,9 +1,13 @@
+import { Navbar } from '../Navbar';
+import { Banner } from '../Banner';
+
 import { Container } from './styles';
 
 export function Header() {
   return (
     <Container>
-      <h1>Header</h1>
+      <Navbar />
+      <Banner />
     </Container>
   );
 }
