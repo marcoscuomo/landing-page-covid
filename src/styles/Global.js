@@ -23,6 +23,8 @@ export default createGlobalStyle`
     --black: #000000;
     --gray-300: #4B4F51;
     --green-300: #035755;
+    --orange-100: #fee6e5;
+    --orange-150: #fa5652;
     --orange-200: #FB4C47;
     --white: #ffffff;
   }
