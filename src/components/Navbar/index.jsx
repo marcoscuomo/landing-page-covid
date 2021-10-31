@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { Container, Menu } from './styles';
-import logo from '../../assets/images/logo.svg';
+import logo from '../../assets/images/logo.png';
 
 export function Navbar() {
   return (

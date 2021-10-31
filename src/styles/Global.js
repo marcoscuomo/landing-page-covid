@@ -20,10 +20,11 @@ export default createGlobalStyle`
   }
 
   :root {
+    --black: #000000;
+    --gray-300: #4B4F51;
     --green-300: #035755;
     --orange-200: #FB4C47;
     --white: #ffffff;
-    --black: #000000;
   }
 
 `;
