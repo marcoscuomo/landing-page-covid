@@ -5,6 +5,8 @@ import { Header } from '../Header';
 import {WhatIsCovid} from '../WhatIsCovid';
 import { Contagion } from '../Contagion';
 import { Main } from '../Main';
+import { Symptomps } from '../Symptomps';
+import { WhatShouldWeDo } from '../WhatShouldWeDo';
 
 export function Layout() {
   return (
@@ -13,6 +15,8 @@ export function Layout() {
       <Main>
         <WhatIsCovid /> 
         <Contagion />
+        <Symptomps />
+        <WhatShouldWeDo />
       </Main>
     </Grid>
   );
