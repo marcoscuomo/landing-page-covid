@@ -6,7 +6,7 @@ import artBanner from '../../assets/images/artBanner.png';
 
 export function Banner() {
   return(
-    <Container>
+    <Container> 
       <Info>
         <h1>COVID-19 Alert</h1>
         <h2>Stay at Home Quarantine to Stop Corona Virus</h2>
