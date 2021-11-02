@@ -12,11 +12,6 @@ export const Container = styled.div`
     text-align: center;
   }
 
-  img.bgCards {
-    position: absolu;
-    top: 10px;
-  }
-
   .bgCards {
     position: absolute;
     z-index: 1;

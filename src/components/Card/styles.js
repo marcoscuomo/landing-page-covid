@@ -8,7 +8,7 @@ export const Container = styled.div`
   border-radius: 10px;
   box-shadow: 0px 35px 87px rgba(0, 0, 0, 0.11);
   position: relative;
-  background: var(--white);
+  background: #fff;
   z-index: 10;
 
   width: 390px;

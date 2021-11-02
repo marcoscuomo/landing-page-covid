@@ -40,7 +40,7 @@ export const Info  = styled.div`
     width: 200px;
     padding: 25px 0;
     background: var(--orange-200);
-    color: var(--white);
+    color: #fff;
     border-radius: 65px;
     font-size: 1.1rem;
     text-decoration: none;

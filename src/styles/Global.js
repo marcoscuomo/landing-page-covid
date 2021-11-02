@@ -2,8 +2,6 @@ import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
-
   * {
     margin: 0;
     padding: 0;
@@ -11,7 +9,7 @@ export default createGlobalStyle`
   }
 
   body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-top: 80px;
   }
 

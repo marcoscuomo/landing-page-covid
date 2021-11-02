@@ -30,7 +30,7 @@ export const WhatIsCovidContainer = styled.div`
     letter-spacing: 1px;
     line-height: 1.5;
     font-size: .9rem;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   a {
@@ -43,7 +43,7 @@ export const WhatIsCovidContainer = styled.div`
   }
 
   a:hover {
-    filter: opacity(75%);
+    filter: opacity(55%);
     cursor: pointer;
   }
 `;

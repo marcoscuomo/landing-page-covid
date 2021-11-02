@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
-// import Link from 'next/link';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link as LinkNav, animateScroll as scroll } from "react-scroll";
 
 
 import { Container, Menu } from './styles';
@@ -33,34 +32,34 @@ export function Navbar() {
 
   return (
     <Container  className={classFixed}>
-      <Link activeClass="active" to="home" spy={true} smooth={true} offset={-70} duration={500}>
+      <LinkNav activeClass="active" to="home" spy={true} smooth={true} offset={-70} duration={500}>
           <Image 
             src={logo} 
             alt="Logo"
           />
-      </Link>
+      </LinkNav>
 
       <Menu>
         <ul>
           <li>
-            <Link to="overview" activeClass="active" spy={true} smooth={true} offset={-70} duration={500}>
+            <LinkNav to="overview" activeClass="active" spy={true} smooth={true} offset={-70} duration={500}>
               Overview
-            </Link>
+            </LinkNav>
           </li>
           <li>
-            <Link to="contagion" activeClass="active" spy={true} smooth={true} offset={-70} duration={500}>
+            <LinkNav to="contagion" activeClass="active" spy={true} smooth={true} offset={-70} duration={500}>
               Contagion
-            </Link>  
+            </LinkNav>  
           </li>
           <li>
-            <Link to="symptomps" activeClass="active" spy={true} smooth={true} offset={-70} duration={500}>
+            <LinkNav to="symptomps" activeClass="active" spy={true} smooth={true} offset={-70} duration={500}>
               Symptoms
-            </Link>
+            </LinkNav>
           </li>
           <li>
-            <Link to="prevention" activeClass="active" spy={true} smooth={true} offset={-70} duration={500}>
+            <LinkNav to="prevention" activeClass="active" spy={true} smooth={true} offset={-70} duration={500}>
               Prevention
-            </Link>
+            </LinkNav>
           </li>
         </ul>
         
