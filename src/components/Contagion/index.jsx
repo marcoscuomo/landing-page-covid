@@ -12,7 +12,7 @@ import { Container, TextInfo, Cards } from './styles';
 const Contagion = () => {
 
   return (
-    <Container>
+    <Container id="contagion">
       <Title mainTitle="Covid-19" subTitle="Contagion" />
       <TextInfo>
         <p>

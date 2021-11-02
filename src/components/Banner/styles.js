@@ -29,23 +29,25 @@ export const Info  = styled.div`
   p {
     color: var(--gray-300);
     font-size: 0.9rem;
-    margin-top: 30px;
+    margin: 30px 0;
     letter-spacing: 1.5px;
     line-height: 1.5;
   }
 
-  button {
-    margin-top: 30px;
-    width: 250px;
+  a {
+    display: block;
+    text-align: center;
+    width: 200px;
     padding: 25px 0;
     background: var(--orange-200);
     color: var(--white);
     border-radius: 65px;
     font-size: 1.1rem;
+    text-decoration: none;
     transition: all ease .5s;
   }
 
-  button:hover {
+  a:hover {
     filter: opacity(75%);
     cursor: pointer;
   }

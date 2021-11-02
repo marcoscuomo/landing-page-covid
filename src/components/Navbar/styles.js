@@ -4,6 +4,25 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  position: fixed;
+  top: 0px;
+  left: 0;
+  z-index: 30;
+  width: 100%;
+  padding: 10px 80px;
+  transition: all ease .5s;
+
+  &.fixed {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  a {
+    cursor: pointer;
+  }
+  .active {
+    color: var(--orange-200);
+  }
 `;
 
 export const Menu = styled.div`
@@ -26,13 +45,14 @@ export const Menu = styled.div`
 
     li a:hover {
       filter: opacity(50%);
+      cursor: pointer;
     }
 
     li + li {
       margin-left: 50px;
     }
 
-    li.active a {
+    li.active {
       color: var(--orange-200);
     }
   }
@@ -44,6 +64,7 @@ export const Menu = styled.div`
     border: solid 2px var(--orange-200);
     border-radius: 20px;
     transition: all ease .5s;
+    text-decoration: none;
   }
 
   .contact:hover {
@@ -51,4 +72,5 @@ export const Menu = styled.div`
     background: var(--orange-200);
     color: var(--white);
   }
+
 `;

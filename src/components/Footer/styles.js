@@ -22,6 +22,6 @@ export const DevelopBy = styled.div`
   a {
     text-decoration: none;
     color: var(--orange-200);
-    font-weight: bold;
+    font-weight: bold ;
   }
 `; 

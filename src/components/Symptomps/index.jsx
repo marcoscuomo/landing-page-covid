@@ -6,7 +6,7 @@ import { Container } from './styles';
 
 export function Symptomps() {
   return (
-    <Container>
+    <Container id="symptomps">
       <Title mainTitle="Covid-19" subTitle="Symptomps" />
 
       <p>

@@ -30,18 +30,19 @@ export const WhatIsCovidContainer = styled.div`
     letter-spacing: 1px;
     line-height: 1.5;
     font-size: .9rem;
+    margin-bottom: 20px;
   }
 
-  button {
+  a {
     background: var(--orange-100);
     color: var(--orange-150);
     padding: 18px 30px;
     border-radius: 65px;
-    margin-top: 20px;
     transition: all ease .5s;
+    text-decoration: none;
   }
 
-  button:hover {
+  a:hover {
     filter: opacity(75%);
     cursor: pointer;
   }

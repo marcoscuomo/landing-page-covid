@@ -12,6 +12,7 @@ export default createGlobalStyle`
 
   body {
     font-family: Roboto, sans-serif;
+    padding-top: 80px;
   }
 
   *, button, input {  
@@ -26,6 +27,7 @@ export default createGlobalStyle`
     --orange-100: #fee6e5;
     --orange-150: #fa5652;
     --orange-200: #FB4C47;
+    --yellow-300: #F5C827
     --white: #ffffff;
   }
 

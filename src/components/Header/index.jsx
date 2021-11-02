@@ -5,7 +5,7 @@ import { Container } from './styles';
 
 export function Header() {
   return (
-    <Container>
+    <Container id="home">
       <Navbar />
       <Banner />
     </Container>

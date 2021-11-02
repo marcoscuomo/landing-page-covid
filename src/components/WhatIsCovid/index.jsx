@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 import whatiscovid from '../../assets/images/whatiscovid.png';
 import { Container, WhatIsCovidContainer } from './styles';
@@ -6,7 +7,7 @@ import { Title } from '../Title';
 
 export function WhatIsCovid() {
   return (
-    <Container>
+    <Container id="overview">
       <Image className="imgWhatIs" src={whatiscovid} alt="What is Covid?" />
       <WhatIsCovidContainer>
         <Title mainTitle="What is Covid-19" subTitle="Coronavirus" />
@@ -16,7 +17,9 @@ export function WhatIsCovid() {
           COVID-19.Lauren Sauer, M.S., the director of operations with the Johns Hopkins Office of 
           Critical Event Preparedness and Response.
         </p>
-        <button>Learn more</button>
+        <Link href="https://www.paho.org/pt/covid19">
+          <a target="_blank">Learn more</a>
+        </Link>
       </WhatIsCovidContainer>
     </Container>
     

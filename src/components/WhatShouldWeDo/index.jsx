@@ -9,7 +9,7 @@ import whatShouldAvoid from '../../assets/images/what_should_avoid.png';
 
 export function WhatShouldWeDo() {
   return (
-    <Container>
+    <Container id="prevention">
       <Title mainTitle="Covid-19" subTitle="What  should we do" />
       <p>
         Corona viruses are a type of virus. There are many different kinds, and some cause disease. 
