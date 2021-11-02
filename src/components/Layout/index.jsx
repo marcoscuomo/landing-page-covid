@@ -7,6 +7,7 @@ import { Contagion } from '../Contagion';
 import { Main } from '../Main';
 import { Symptomps } from '../Symptomps';
 import { WhatShouldWeDo } from '../WhatShouldWeDo';
+import { Footer } from '../Footer';
 
 export function Layout() {
   return (
@@ -18,6 +19,7 @@ export function Layout() {
         <Symptomps />
         <WhatShouldWeDo />
       </Main>
+      <Footer />
     </Grid>
   );
 }
