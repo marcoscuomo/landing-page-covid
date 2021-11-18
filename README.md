@@ -1,4 +1,8 @@
-# Example app with styled-components
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+# Website developed with Next and Styled-components 
+
+![alt text](https://lh3.googleusercontent.com/g72l9Qzg2OTWGgSrXMF_RACetp_57mS9AApwGIneKK7-xfTOi4fUse5Cs2waEAfoisOk5iet0cV3tEiwQDhY8oof1lDTMqBGr9OuXAQbD72wn86Xb4_36psGcwXGKnMtlgbfaZJWxwvx_49x_kSShmoIRDJA-JADBBu93ziT8-sVSo6vXXiNGjHQxsMvpNbna2HQb2c-yTUqxwKdh23139Zl12AQo6po5lWE6mJavlFgSq1XxP4-yeIv-8Qa0vLtiAPzWIcYv95yQaKU_tNCVgyIjkszRcDT8cpzw0sqRgzuzebxKDACDPhWhtD9CQwgtunlmjMI6zBrk5S8hPgPChH2Jrd3VZ7-O6Qr59twzSV1Hf5iy0VKJ29-2XaVdBxpVXXniRWexQds-GcreGrbEY_EvNxomlQf3JOZPCW9iC6eqztEt_9mJXePyEjT4UQjdg0TaIjDCwnOSwCOnv4Vb_Zv7p6dZwoP9eJ5Hp9K8-EaUUcKcCN0CzZ141F75g2HdpedoedSilW6A5mm5VfFkO7DBRRnp6ChTsqZsQUHPketog1Z1_56wMsGRkNVgJNSRJmKFRZmZw8GnkY-gIEjoOZ9BoraYMZR7rSCqUUhDWEhIwF4yhLi4F6KydahQshpYf7QpVHU9SZiAq2ZnN9-Pb2KbbC_hI2QEQrdLszNaIDvH7DDZNw-fOO52FTlhblFUXwNd5SkQyFmXKQtzccUgoPF=w1415-h661-no?authuser=0)
 
 This example features how you use a different styling solution than [styled-jsx](https://github.com/vercel/styled-jsx) that also supports universal styles. That means we can serve the required styles for the first render within the HTML and then load the rest in the client. In this case we are using [styled-components](https://github.com/styled-components/styled-components).
 
