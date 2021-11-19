@@ -1,6 +1,6 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-# Website developed with Next and Styled-components 
+# Landing page developed with Next and Styled-components 
 
 <img src="https://i.ibb.co/qCbHQNR/covid.png" alt="Landing Page Covid" />
 
